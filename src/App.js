@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import PropsExample from './PropsExample';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  <PropsExample name="Rana" age="27"/>
+  <PropsExample name="Hala" age="21"/>
+    </>
   );
 }
 
